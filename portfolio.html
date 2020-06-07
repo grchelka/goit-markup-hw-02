@@ -17,13 +17,13 @@
     <header>
         <nav>
             <a href="./index.html" class="logo">
-                Web <span class="logo-accent">Studio</span>
+                Web <span class="logo-header">Studio</span>
             </a>
 
             <ul class="nav-links">
-                <li><a href="" class="link">Студия</a></li>
-                <li><a href="./portfolio.html" target="_blank" class="link">Портфолио</a></li>
-                <li><a href="" class="link">Контакты</a></li>
+                <li><a href="">Студия</a></li>
+                <li><a href="./portfolio.html" target="_blank">Портфолио</a></li>
+                <li><a href="">Контакты</a></li>
             </ul>
 
             <!-- позже используем встроенные svg файлы -->
@@ -36,117 +36,123 @@
 
     <main>
         <!--Примеры работ-->
-        <section>
-            <!--скроем h1 в css-->
-            <h1>Примеры работ</h1>
-            <!--радио кнопки дооформляются в следующем дз-->
-            <form action="/">
-                <div>
-                    <input type="radio" name="sample" value="all"><span>Все</span>
-                    <input type="radio" name="sample" value="websites"><span>Веб-сайты</span>
-                    <input type="radio" name="sample" value="applications"><span>Приложения</span>
-                    <input type="radio" name="sample" value="design"><span>Дизайн</span>
-                    <input type="radio" name="sample" value="marketing"><span>Маркетинг</span>
-                </div>
-            </form>
+        <section class="examples">
+            <!--скроем <h1>Примеры работ</h1> в css позже-->
+            <!--радио кнопки дооформляются в следующем дз, пока разрешили ссылками сделать-->
+            <div class="radio-button">
+                <a href="">Все</a>
+                <a href="">Веб-сайты</a>
+                <a href="">Приложения</a>
+                <a href="">Дизайн</a>
+                <a href="">Маркетинг</a>
+            </div>
 
-            <ul>
+            <ul class="examples-list">
                 <!--возможно ссылкой будет вся li в дальнейшем-->
                 <li>
-                    <img src="./images/techno.jpg" alt="Компьютер с примером работы" width="370" height="294" />
                     <a href="">
-                        <h2>Технокряк</h2>
+                        <img src="./images/techno.jpg" alt="Компьютер с примером работы" width="370" height="294" />
                     </a>
+                    <h2>Технокряк</h2>
                     <p>Веб-сайт</p>
-                    <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                    <p class="popup-text">Технокряк это современная площадка распространения коронавируса. Компании
+                        используют эту
                         платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
                     </p>
                 </li>
 
                 <li>
-                    <img src="./images/design.jpg" alt="Два баскетболиста" width="370" height="294" />
                     <a href="">
-                        <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                        <img src="./images/design.jpg" alt="Два баскетболиста" width="370" height="294" />
                     </a>
+                    <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
                     <p>Дизайн</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="popup-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
                         labore et dolore magna aliqua.
                     </p>
                 </li>
 
                 <li>
-                    <img src="./images/restaurant-logo.jpg" alt="Лого ресторана" width="370" height="294" />
                     <a href="">
-                        <h2>Ресторан <span lang="en">Seafood</span></h2>
+                        <img src="./images/restaurant-logo.jpg" alt="Лого ресторана" width="370" height="294" />
                     </a>
+                    <h2>Ресторан <span lang="en">Seafood</span></h2>
                     <p>Приложение</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="popup-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
                         labore et dolore magna aliqua.
                     </p>
                 </li>
 
                 <li>
-                    <img src="./images/headphones.jpg" alt="Наушники" width="370" height="294" />
                     <a href="">
-                        <h2>Проект <span lang="en">Prime</span></h2>
+                        <img src="./images/headphones.jpg" alt="Наушники" width="370" height="294" />
                     </a>
+                    <h2>Проект <span lang="en">Prime</span></h2>
                     <p>Маркетинг</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="popup-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
                         labore et dolore magna aliqua.
                     </p>
                 </li>
 
                 <li>
-                    <img src="./images/boxes.jpg" alt="Две коробки" width="370" height="294" />
                     <a href="">
-                        <h2>Проект <span lang="en">Boxes</span></h2>
+                        <img src="./images/boxes.jpg" alt="Две коробки" width="370" height="294" />
                     </a>
+                    <h2>Проект <span lang="en">Boxes</span></h2>
                     <p>Приложение</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="popup-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
                         labore et dolore magna aliqua.
                     </p>
                 </li>
 
                 <li>
-                    <img src="./images/computer.jpg" alt="Компьютер" width="370" height="294" />
                     <a href="">
-                        <h2 lang="en">Inspiration has no Borders</h2>
+                        <img src="./images/computer.jpg" alt="Компьютер" width="370" height="294" />
                     </a>
+                    <h2 lang="en">Inspiration has no Borders</h2>
                     <p>Веб-сайт</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="popup-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
                         labore et dolore magna aliqua.
                     </p>
                 </li>
 
                 <li>
-                    <img src="./images/journal.jpg" alt="Журнал" width="370" height="294" />
                     <a href="">
-                        <h2>Издание <span lang="en">Limited Edition</span></h2>
+                        <img src="./images/journal.jpg" alt="Журнал" width="370" height="294" />
                     </a>
+                    <h2>Издание <span lang="en">Limited Edition</span></h2>
                     <p>Дизайн</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="popup-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
                         labore et dolore magna aliqua.
                     </p>
                 </li>
 
                 <li>
-                    <img src="./images/lab.jpg" alt="Ярлык" width="370" height="294" />
                     <a href="">
-                        <h2>Проект <span lang="en">LAB</span></h2>
+                        <img src="./images/lab.jpg" alt="Ярлык" width="370" height="294" />
                     </a>
+                    <h2>Проект <span lang="en">LAB</span></h2>
                     <p>Маркетинг</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="popup-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
                         labore et dolore magna aliqua.
                     </p>
                 </li>
 
                 <li>
-                    <img src="./images/laptop-site.jpg" alt="Лаптоп с вебстраницей" width="370" height="294" />
                     <a href="">
-                        <h2 lang="en">Growing Business</h2>
+                        <img src="./images/laptop-site.jpg" alt="Лаптоп с вебстраницей" width="370" height="294" />
                     </a>
+                    <h2 lang="en">Growing Business</h2>
                     <p>Приложение</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="popup-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
                         labore et dolore magna aliqua.
                     </p>
                 </li>
@@ -154,16 +160,18 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <a href="/" class="logo">
-            Web <span class="logo-accent">Studio</span>
+            Web <span class="logo-footer">Studio</span>
         </a>
-        <address>
-            г. Киев, пр-т Леси Украинки, 26
-        </address>
+        <div class="footer-contacts">
+            <address>
+                г. Киев, пр-т Леси Украинки, 26
+            </address>
 
-        <a href="mailto:info@example.com">info@example.com</a><br />
-        <a href="tel:++380991111111">+38 099 111 11 11</a>
+            <a href="mailto:info@example.com">info@example.com</a><br />
+            <a href="tel:++380991111111">+38 099 111 11 11</a>
+        </div>
 
         <p>Присоединяйтесь</p>
         <ul>
@@ -184,7 +192,7 @@
         <p>Подпишитесь на рассылку</p>
         <!--позже вставим email-input; button-->
 
-        <p>2020 | Developed by GoIT Students</p>
+        <p class="page-authors">2020 | Developed by GoIT Students</p>
     </footer>
 </body>
 

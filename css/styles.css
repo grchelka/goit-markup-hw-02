@@ -183,5 +183,37 @@ background-color: #188ce8;
     color: rgba(255, 255, 255, 0.4);
 }
 
+/* дополнительные стили для Портфолио*/
+.radio-button a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    color: var(--main-textcolor);
+    background-color: var(--secondary-backgroundcolor);
+}
 
+.radio-button a:hover,
+.radio-button a:focus {
+    color: var(--white-textcolor);
+    background-color: #2196F3;
+}
+.examples-list h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
 
+.examples-list p {
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--grey-textcolor);
+}
+
+.examples-list .popup-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--white-textcolor);
+    /* background будет работать иначе при поключении интерактивности, ставлю, чтобы видно было p */
+    background-color: #2196F3; 
