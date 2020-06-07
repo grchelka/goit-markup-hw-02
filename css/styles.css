@@ -1,7 +1,8 @@
 :root {
     --main-textcolor: #212121;
     --accent-textcolor: #2196F3;
-    --secondary-textcolor: #757575;
+    --grey-textcolor: #757575;
+    --white-textcolor: #FFFFFF;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
     font-weight: 400;
     color: var(--main-textcolor);
 }
-
+/* Шапка сайта */
 a.logo {
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -36,7 +37,7 @@ a.logo {
     color: var(--main-textcolor);
 }
 .nav-contacts a {
-    color: var(--secondary-textcolor);
+    color: var(--grey-textcolor);
 }
 .nav-links a:hover,
 .nav-links a:focus,
@@ -44,6 +45,36 @@ a.logo {
 .nav-contacts a:focus {
     color: var(--accent-textcolor);
 }
+/*Герой/Jumbotron*/
+.jumbotron {
+    color: var(--white-textcolor);
+    /*задаю background чтобы проверить применение цвета к h1 и а*/
+    background: rgba(47, 48, 58, 0.8);
+    letter-spacing: 0.06em;
+}
+.jumbotron-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+}
+.jumbotron-button { 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    background-color: var(--accent-textcolor);
+}
+/*имитация кнопки, т.к. кнопки сказали не использовать; изменения при hover и focus видно в дубликате макета*/
+.jumbotron-button:hover,
+.jumbotron-button:focus {
+background-color: #188ce8;
+}
+.jumbotron-button:visited {
+    color: var(--white-textcolor);
+}
+
+/* Преимущества */
 
 footer -- 
 
@@ -76,15 +107,7 @@ line-height: 2;
 text-align: center;
 letter-spacing: 0.03em;
 
-<h1>Эффективные решения для вашего бизнеса</h1>
-font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+
 
 <a href="">Заказать услугу</a> 
 font-family: Roboto;
