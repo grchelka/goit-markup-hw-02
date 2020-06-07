@@ -1,3 +1,115 @@
-body {
-    background-color: aquamarine;
+:root {
+    --main-textcolor: #212121;
+    --accent-textcolor: #2196F3;
+    --secondary-textcolor: #757575;
 }
+
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--main-textcolor);
+}
+
+a.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em; 
+    color: var(--main-textcolor);
+}
+
+.logo-accent {
+    color: var(--accent-textcolor);
+}
+
+.nav-links, 
+.nav-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.nav-links a {
+    color: var(--main-textcolor);
+}
+.nav-contacts a {
+    color: var(--secondary-textcolor);
+}
+.nav-links a:hover,
+.nav-links a:focus,
+.nav-contacts a:hover,
+.nav-contacts a:focus {
+    color: var(--accent-textcolor);
+}
+
+footer -- 
+
+
+address email tel 
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+
+
+присоединяйтесь 
+подпишитесь 
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+2020 | Developed by GoIT Students 
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+text-align: center;
+letter-spacing: 0.03em;
+
+<h1>Эффективные решения для вашего бизнеса</h1>
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+<a href="">Заказать услугу</a> 
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+<!-- Преимущества -->
+<h3>Внимание к деталям</h3> <h3>Пунктуальность</h3> <h3>Планирование</h3> <h3>Современные технологии</h3>
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+<p>
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
