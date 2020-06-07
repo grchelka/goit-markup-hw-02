@@ -118,7 +118,7 @@ background-color: #188ce8;
     line-height: 1.19;
     color: var(--grey-textcolor);
 }
-
+/* позже используем встроенные svg файлы со стилями */
 .social-link {
     color:#AFB1B8;
 }
@@ -129,9 +129,15 @@ background-color: #188ce8;
 }
 
 /* Клиенты */
+/* позже используем встроенные svg файлы со стилями */
+.clients-list a {
+    color:#AFB1B8;
+}
 
-
-
+.clients-list a:hover,
+.clients-list a:focus {
+    color: var( --accent-textcolor);
+}
 
 
 footer -- 
