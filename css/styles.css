@@ -9,8 +9,11 @@ body {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     color: var(--main-textcolor);
 }
+
 /* Шапка сайта */
 a.logo {
     font-family: Raleway, sans-serif;
@@ -18,7 +21,6 @@ a.logo {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em; 
     color: var(--main-textcolor);
 }
 
@@ -29,12 +31,11 @@ a.logo {
 .nav-links, 
 .nav-contacts {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .nav-links a {
-    color: var(--main-textcolor);
+    color: inherit;
 }
 .nav-contacts a {
     color: var(--grey-textcolor);
@@ -75,6 +76,18 @@ background-color: #188ce8;
 }
 
 /* Преимущества */
+.advantages-list h3 {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantages-list p {
+    line-height: 1.7;
+    color: var(--grey-textcolor);
+}
+
+/* Набор услуг */
 
 footer -- 
 
@@ -109,25 +122,8 @@ letter-spacing: 0.03em;
 
 
 
-<a href="">Заказать услугу</a> 
-font-family: Roboto;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.9;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-
 <!-- Преимущества -->
-<h3>Внимание к деталям</h3> <h3>Пунктуальность</h3> <h3>Планирование</h3> <h3>Современные технологии</h3>
-font-family: Roboto;
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+
 
 <p>
 font-family: Roboto;
