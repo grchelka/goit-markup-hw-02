@@ -1,6 +1,6 @@
 :root {
     --main-textcolor: #212121;
-    --accent-textcolor: #2196F3;
+    --accent-color: #2196F3;
     --grey-textcolor: #757575;
     --white-textcolor: #FFFFFF;
     --main-backgroundcolor: #FFFFFF;
@@ -18,7 +18,7 @@ body {
 }
 a:hover,
 a:focus {
-    color: var(--accent-textcolor);
+    color: var(--accent-color);
 }
 
 /* Шапка сайта */
@@ -28,7 +28,7 @@ a.logo {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--accent-textcolor);
+    color: var(--accent-color);
 }
 
 .logo-header {
@@ -51,13 +51,13 @@ a.logo {
 .nav-links a:focus,
 .nav-contacts a:hover,
 .nav-contacts a:focus {
-    color: var(--accent-textcolor);
+    color: var(--accent-color);
 }
 /*Герой/Jumbotron*/
 .jumbotron {
     color: var(--white-textcolor);
     /*задаю background чтобы проверить применение цвета к h1 и а*/
-    background: rgba(47, 48, 58, 0.8);
+    background-color: rgba(47, 48, 58, 0.8);
     letter-spacing: 0.06em;
 }
 .jumbotron-title {
@@ -71,7 +71,7 @@ a.logo {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    background-color: var(--accent-textcolor);
+    background-color: var(--accent-color);
 }
 /*имитация кнопки, т.к. кнопки сказали не использовать; изменения при hover и focus видно в дубликате макета*/
 .jumbotron-button:hover,
@@ -110,7 +110,7 @@ background-color: #188ce8;
     text-transform: uppercase;
     color: var(--white-textcolor);
     /* задаю background чтобы проверить применение цвета к h3 */
-    background: rgba(47, 48, 58, 0.8);
+    background-color: rgba(47, 48, 58, 0.8);
 }
 
 /* Команда */
@@ -142,12 +142,12 @@ background-color: #188ce8;
 
 .clients-list a:hover,
 .clients-list a:focus {
-    color: var(--accent-textcolor);
+    color: var(--accent-color);
 }
 
 /* Footer */
 .footer {
-    background: #2F303A;
+    background-color: #2F303A;
 }
 .logo-footer {
     color: var(--white-textcolor);
@@ -166,12 +166,12 @@ background-color: #188ce8;
 
 .footer-contacts a:hover,
 .footer-contacts a:focus {
-    color: var( --accent-textcolor);
+    color: var( --accent-color);
 }
 /* позже вставим email-input; button */
 .footer p {
     font-weight: 700;
-    line-height: 1.14px;
+    line-height: 1.14;
     text-transform: uppercase; 
     color: var(--white-textcolor);
 }
@@ -196,7 +196,7 @@ background-color: #188ce8;
 .radio-button a:hover,
 .radio-button a:focus {
     color: var(--white-textcolor);
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 }
 .examples-list h2 {
     font-weight: bold;
@@ -216,4 +216,5 @@ background-color: #188ce8;
     line-height: 1.6;
     color: var(--white-textcolor);
     /* background будет работать иначе при поключении интерактивности, ставлю, чтобы видно было p */
-    background-color: #2196F3; 
+    background-color: var(--accent-color);
+}
