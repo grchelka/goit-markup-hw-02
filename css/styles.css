@@ -87,22 +87,50 @@ background-color: #188ce8;
     color: var(--grey-textcolor);
 }
 
-/* Набор услуг */
-.service-title {
+.service-title,
+.team-title,
+.clients-title {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
 
+/* Набор услуг */
 .service-list h3 {
     font-weight: bold;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--white-textcolor);
-    /* *задаю background чтобы проверить применение цвета к h3 */
+    /* задаю background чтобы проверить применение цвета к h3 */
     background: rgba(47, 48, 58, 0.8);
 }
+
+/* Команда */
+.team-list h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-list p {
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--grey-textcolor);
+}
+
+.social-link {
+    color:#AFB1B8;
+}
+
+.social-link:hover,
+.social-link:focus {
+    color: var( --accent-textcolor);
+}
+
+/* Клиенты */
+
+
 
 
 
